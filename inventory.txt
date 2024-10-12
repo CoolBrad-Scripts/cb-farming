@@ -1,0 +1,90 @@
+    ["apple"] = {
+		label = "Apple",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "apple.png",
+		}
+	},
+	["lemon"] = {
+		label = "Lemon",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "lemon.png",
+		}
+	},
+	["lime"] = {
+		label = "Lime",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "lime.png",
+		}
+	},
+	["orange"] = {
+		label = "Orange",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "orange.png",
+		}
+	},
+	["tomato"] = {
+		label = "Tomato",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "tomato.png",
+		}
+	},
+	["potato"] = {
+		label = "Potato",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "potato.png",
+		}
+	},
+	["onion"] = {
+		label = "Onion",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "onion.png",
+		}
+	},
+	["strawberry"] = {
+		label = "Strawberry",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "strawberry.png",
+		}
+	},
+	["agave"] = {
+		label = "Agave",
+		weight = 100,
+		stack = true,
+		close = true,
+		description = "",
+		client = {
+			image = "agave.png",
+		}
+	},
