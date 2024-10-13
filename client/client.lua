@@ -40,7 +40,8 @@ for treeType, treeData in pairs(Config.Trees) do
                             flag = treeData.anim.flag
                         }
                     }) then
-                        local gaveItem = lib.callback.await('cb-farming:server:PickItem', false, treeType, i)
+                        local location = vector3(tree.coords.x, tree.coords.y, tree.coords.z)
+                        local gaveItem = lib.callback.await('cb-farming:server:PickItem', false, treeType, location)
                         if gaveItem then
                             Notify('Farming', 'You picked ' .. GetItemLabel(treeType), 'success')
                         end
@@ -98,7 +99,8 @@ for treeType, treeData in pairs(Config.Trees) do
                             flag = treeData.anim.flag
                         }
                     }) then
-                        local gaveItem = lib.callback.await('cb-farming:server:PickItem', false, treeType, i)
+                        local location = vector3(tree.coords.x, tree.coords.y, tree.coords.z)
+                        local gaveItem = lib.callback.await('cb-farming:server:PickItem', false, treeType, location)
                         if gaveItem then
                             Notify('Farming', 'You picked ' .. GetItemLabel(treeType), 'success')
                         end

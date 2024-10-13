@@ -31,6 +31,11 @@ function GetPlayer(target)
     end
 end
 
+function GetPlayerCoords(target)
+    local playerPed = GetPlayerPed(target)
+    return GetEntityCoords(playerPed)
+end
+
 ---@param name string
 ---@return {citizenid: string, grade: integer}[]
 function FetchPlayersInGang(name)
