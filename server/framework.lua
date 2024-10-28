@@ -1,6 +1,7 @@
 CreateThread(function()
     Framework = "qb-core"
     UsingOxInventory = false
+    lib.versionCheck('CoolBrad-Scripts/cb-farming')
     if GetResourceState('qbx_core') == 'started' then
         Framework = "qbox"
     elseif GetResourceState('qb-core') == 'started' then
