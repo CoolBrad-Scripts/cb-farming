@@ -178,3 +178,20 @@ Config.Trees = {
         }
     },
 }
+Config.Cows = {
+    SkillCheck = true,
+    requiredItem = "testburger",
+    milkDuration = 1000,
+    milkItem = "testburger",
+    spawnCows = {
+        [1] = { coords = vec4(2217.06, 4900.35, 39.81, 316.06) },
+        [2] = { coords = vec4(2213.18, 4905.08, 39.81, 320.51) },
+        [3] = { coords = vec4(2215.02, 4902.96, 39.81, 316.79) },
+        [4] = { coords = vec4(2219.44, 4897.81, 39.73, 319.36) },
+        [5] = { coords = vec4(2211.0, 4907.35, 39.75, 316.85) }
+    }
+}
+
+Config.Wheat = {
+
+}

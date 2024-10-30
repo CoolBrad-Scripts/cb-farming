@@ -6,6 +6,7 @@ This script allows players to pick fruits and vegetables from designated areas i
 
 ## Features:
 - Fruit & Vegetable Picking
+- Milk Cows
 - Highly configurable
 - Optimized and Secure
 

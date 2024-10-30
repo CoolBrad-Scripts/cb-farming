@@ -37,6 +37,25 @@ function Notify(label, message, type)
     })
 end
 
+function MilkCowsMinigame()
+    local success = lib.skillCheck(
+        {
+            {
+                areaSize = 50,
+                speedMultiplier = 0.5
+            }, {
+                areaSize = 50,
+                speedMultiplier = 0.5
+            }, {
+                areaSize = 50,
+                speedMultiplier = 0.5
+            }
+        },
+        {'w', 'a', 's', 'd'}
+    )
+    return success
+end
+
 RegisterNetEvent('cb-farming:client:NotEnoughSpace', function()
     Notify('Farming', 'You do not have enough space in your inventory!', 'error')
 end)

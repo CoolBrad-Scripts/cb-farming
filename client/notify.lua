@@ -1,3 +1,3 @@
 RegisterNetEvent('cb-farming:client:Notify', function(label, message, notifyType)
-    print("triggered")
+    Notify(label, message, notifyType)
 end)

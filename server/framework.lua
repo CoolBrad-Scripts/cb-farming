@@ -15,8 +15,8 @@ end)
 
 local picked = {}
 ---@param limit integer Cooldown for netevents
----@return boolean onCooldown If the player is on cooldown from triggering the event
-local function onCooldown(limit)
+---@return boolean OnCooldown If the player is on cooldown from triggering the event
+function OnCooldown(limit)
     local time = os.time()
     if picked[source] and time - picked[source] < limit then return true end
     picked[source] = time
@@ -87,9 +87,6 @@ function RemoveItem(source, item, amount)
 end
 
 function AddItem(source, item, amount)
-    if onCooldown(10) then
-        return false
-    end
     if not UsingOxInventory then
         local Player = GetPlayer(source)
         Player.Functions.AddItem(item, amount)
