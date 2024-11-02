@@ -191,7 +191,3 @@ Config.Cows = {
         [5] = { coords = vec4(2211.0, 4907.35, 39.75, 316.85) }
     }
 }
-
-Config.Wheat = {
-
-}

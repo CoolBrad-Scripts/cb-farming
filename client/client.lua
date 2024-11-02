@@ -209,5 +209,3 @@ end)
 RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
     DeleteCows()
 end)
-
-SpawnCows()
